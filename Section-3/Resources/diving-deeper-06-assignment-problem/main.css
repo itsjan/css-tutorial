@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding 0;
+}
+
+
+body {
+  background-color: cadetblue;
+}
+
+.box{
+  display: inline-block;
+  background-color: mintcream;  
+  border: 1px solid blueviolet;
+  
+  width: 200px;
+  height: 200px;
+  
+  padding: 8px 16px 32px 64px;
+  margin: 20px 30px 40px 50px;
+  
+}
+
+.first{
+  height: 300px;
+  width: 50%;
+  display: none;
+  
+}
+
+.box-content{
+  background-color: rosybrown;
+  width: 100%;
+  height: 100%;
+  border: 1px solid aquamarine;
+}
+
+div:last-of-type:hover{
+  background-color: red;
+}
