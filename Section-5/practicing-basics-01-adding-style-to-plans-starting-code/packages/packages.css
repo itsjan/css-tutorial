@@ -1,0 +1,55 @@
+main { 
+  padding-top: 32px;
+  
+}
+
+section.package { 
+  border: 5px solid darkgreen;
+  margin: 24px 0;
+  
+  width: 80%;
+  background-color: mintcream;
+}
+
+section.package:hover,
+section.package:active{
+-webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5)
+}
+
+
+section.package h2 {
+  color: gray;
+}
+
+section.package a {
+  /* 
+     Dislay block, and padding here will maintain
+     the whole section element as a clickable area
+  */
+  padding: 18px;
+  display: block;
+  text-decoration: none;  
+  color: inherit;
+}
+
+section.package p {
+  border: 2px solid darkgreen;
+  padding: 16px;
+  background-color: white;
+  color: darkgreen;
+}
+
+section.package-premium {
+  background-color: darkgreen;
+}
+
+section.package-premium h2 {
+  color: silver;
+}
+
+section.package-premium a{
+  color: white;
+}
+
+
+
